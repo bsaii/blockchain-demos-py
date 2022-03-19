@@ -1,0 +1,5 @@
+dotenv: .env
+
+# another way of securing the private key (better method)
+wallets:
+  from_key: ${PRIVATE_KEY}
